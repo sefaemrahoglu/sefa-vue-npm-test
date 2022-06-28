@@ -1,15 +1,17 @@
 {
   "name": "sefa-vue-npm-test-2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-library" : "vue-cli-service build --target lib --name sefa-vue-npm-test-2 ./src/install.js"
+    "build-library": "vue-cli-service build --target lib --name sefa-vue-npm-test-2 ./src/install.js"
   },
-  "main" : ".dist/sefa-vue-npm-test-2.common.js",
-  "files": ["dist/*"],
+  "main": ".dist/sefa-vue-npm-test-2.common.js",
+  "files": [
+    "dist/*"
+  ],
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
